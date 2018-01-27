@@ -1,0 +1,31 @@
+@media only screen and (min-width: 555px) and (max-width: 1200px) {
+  .fs-products-row {
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 150px;
+  }
+  .fs-detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 300px;
+  }
+  .fs-detail-item {
+    width: 30%;
+  }
+  .fs-decorspace {
+    width: 80%;
+  }
+  .fs-decorspace-list {
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 100px 100px;
+    grid-row-gap: 100px;
+  }
+  .fs-decorspace-item {
+    width: 150px;
+    height: 150px;
+  }
+  .fs-intro-showroom-item {
+    height: 350px;
+  }
+}
