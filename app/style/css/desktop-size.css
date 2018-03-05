@@ -34,4 +34,16 @@
   .fs-intro-showroom-item {
     height: 350px;
   }
+
+
+  .fs-gallery-show {
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+  }
+  .buylink {
+    right: 10%;
+  }
+  .backlink {
+    left: 10%;
+  }
 }

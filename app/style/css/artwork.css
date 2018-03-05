@@ -1,0 +1,68 @@
+.fs-artwork-title {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.fs-gallery {
+  width: 100%;
+}
+.fs-gallery-show {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-column-gap: 30px;
+}
+.fs-gaallery-pic {
+  /*background-image: url(../img/itempic/m1-web.png);*/
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.linkbtn {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  top: calc((100% - 50px) / 2);
+}
+.buylink {
+  right: 20px;
+}
+.backlink {
+  left: 20px;
+}
+.fs-link-word {
+  /*width: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;*/
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.fs-link-arrow {
+  width: 30px;
+  height: 20px;
+  background-image: url(../img/arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
